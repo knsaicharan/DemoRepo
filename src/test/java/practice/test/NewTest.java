@@ -23,7 +23,7 @@ public class NewTest {
 		String expectedTitle = "Google";
 		String actualTitle = driver.getTitle();
 		Assert.assertEquals(actualTitle, expectedTitle);
-		System.out.print("----");
+		System.out.print("pass");
 		driver.close();
 	}
 }
